@@ -111,7 +111,7 @@ html[xmlns] .slides {
 /* Direction Nav */
 
 .flex-direction-nav {
-	*height: 0;
+	height: 0;
 }
 
 .flex-direction-nav a {
@@ -176,7 +176,8 @@ html[xmlns] .slides {
 	cursor: pointer;
 	text-indent: -9999px;
 	border: none;
-	color: #fff;
+	color: 
+	#f4f3eb;
 	background: #000;
 	text-align: center;
 	border-radius: 15px;
