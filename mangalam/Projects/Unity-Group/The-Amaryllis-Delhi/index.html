@@ -15,7 +15,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/clean/style.css" rel="stylesheet" type="text/css" media="all" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
@@ -153,7 +153,7 @@
                         <div class="card-header">
                             <ul>
                             <br />
-                                <li><a href="https://api.whatsapp.com/send?phone=919990444600&amp;text=Hello%20I%20am%20%20interested%20in%20The%20Amaryllis" target="_blank"><i class="fa fa-whatsapp"></i>&nbsp;  +91 9810860428</a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=919990444600&amp;text=Hello%20I%20am%20%20interested%20in%20The%20Amaryllis" target="_blank"><i class="fa fa-whatsapp"></i>&nbsp;  +91 9315914405</a></li>
                                 <li><a href="#" data-toggle="modal" data-target="#sitevisit" onclick="fnRequestHeading('REQUEST A SITE VISIT');">Request Site Visit</a></li>
                                 <li><a href="#" data-toggle="modal" data-target="#sitevisit" onclick="fnRequestHeading('REQUEST A MEETING');">Request Meeting</a></li>
                             </ul>
@@ -572,10 +572,10 @@
                     </section>
 
                     <section class="card rounded-0 border-0 shadow mb-3" id="dev">
-                        <div class="card-body overvw">
-                            <h6 class="mb-2">About The Developer</h6>
+                        <div class="card-body overvw wow fadeInUp animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
+                            <h6 class="mb-2" style="font-family: 'Fractal Alt', serif; font-size: large;">About The Developer</h6>
                             <div class="sec-content">
-                               <p>Unity Group is a well-known real estate developer in New Delhi with more than 20+ years of experience. Come into existence in 1996 and not till this time they have more than 10 Million Sq Ft of Commercial, Retail, Hospitality, and Institutional Spaces delivered to satisfied customers. And now this real estate developer has moved in the residential segment with The Amaryllis being developed in Karol Bagh, Central Delhi.</p> 
+                               <p style="font-family: 'Fractal Alt', serif;">Unity Group is a well-known real estate developer in New Delhi with more than 20+ years of experience. Come into existence in 1996 and not till this time they have more than 10 Million Sq Ft of Commercial, Retail, Hospitality, and Institutional Spaces delivered to satisfied customers. And now this real estate developer has moved in the residential segment with The Amaryllis being developed in Karol Bagh, Central Delhi.</p> 
                                 
                             </div>
                         </div>
@@ -596,7 +596,7 @@
             <ul>
                 <li class="call"><a href="tel:+91 9990444600 "><i class="fa fa-phone"></i>Call</a></li>
                 <li class="mail"><a href="#" data-toggle="modal" data-target="#sitevisit" onclick="fnRequestHeading('I AM INTERESTED');"><i class="fa fa-envelope"></i>Enquire</a></li>
-                <li class="wapp"><a href="https://api.whatsapp.com/send?phone=919810860428"><i class="fa fa-whatsapp"></i>WhatsApp</a></li>
+                <li class="wapp"><a href="https://api.whatsapp.com/send?phone=919315914405"><i class="fa fa-whatsapp"></i>WhatsApp</a></li>
             </ul>
         </div>
 
@@ -894,7 +894,7 @@
 
 // Initialize EmailJS - replace "your_user_id" with your actual EmailJS user ID
 (function() {
-  emailjs.init("your_user_id");
+  emailjs.init("kql1KIf1mxBmxqh4C");
 })();
 
 // This function will replace your existing form submission functions (saveprojqc, saveprojmdlqc, etc.)
@@ -952,8 +952,8 @@ function sendFormToEmail(formId) {
   
   // Send email using EmailJS
   emailjs.send(
-    "your_service_id", // Replace with your EmailJS service ID
-    "your_template_id", // Replace with your EmailJS template ID
+    "service_u34c8zf", // Replace with your EmailJS service ID
+    "template_kos0udr", // Replace with your EmailJS template ID
     formData
   )
   .then(function(response) {
