@@ -1,0 +1,8 @@
+# Redirect HTTP to HTTPS
+http://theamarylliskarolbagh.in/* https://theamarylliskarolbagh.in/:splat 301!
+
+# Redirect www to non-www
+https://www.theamarylliskarolbagh.in/* https://theamarylliskarolbagh.in/:splat 301!
+
+# Redirect index.html to root
+/index.html https://theamarylliskarolbagh.in/ 301!
